@@ -1,0 +1,79 @@
+/* ===============basic css================ */
+body{
+    width: 100%;
+    height: 100vh;
+    background: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    width: 500px;
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background: gold;
+}
+.main_part{
+    display: flex;
+    justify-content: end;
+    align-items:center;
+}
+/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+.playerName{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+.main input{
+    width: 400px;
+    height: 70px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    color:black;
+}
+.main button{
+    width: 120px;
+    height: 40px;
+    padding: 5px 15px;
+    background:orangered;
+    font-size: 18px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+}
+.main button:active{
+    transform: scale(1.1);
+}
+.player_2{
+    display: none;
+}
+.error{
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.result{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.winner{
+    display: none;
+}
+.chance_number{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: end;
+}
+/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
+/* ===============basic css end================ */
